@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title>Agenda de Contatos</title>
+<link rel="shortcut icon" href="assets/images/favicon.png"
+	type="image/x-icon">
+
+<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+</head>
+<body>
+
+	<div class="main__">
+		<div class="container__">
+			<div class="form-schedule">
+				
+					<div class="title">
+						<h1>Adicionar contato</h1>
+					</div>
+					
+				  <form name="frmContato" action="insert">
+						<div class="group">
+							<input type="text" name="nome" placeholder="Nome" />
+						</div>
+						<div class="group col-fone">
+							<input type="text" name="fone" placeholder="(61) XXXXX-XXXX" />
+						</div>
+						<div class="group">
+							<input type="email" name="email" placeholder="E-mail" />
+						</div>
+						<input type="submit" class="btn-submit" value="Adicionar" onclick="validar()" />
+					</form>
+			</div>
+			
+		</div>
+	</div>
+<script src="assets/js/validador.js" ></script>
+
+</body>
+</html>
